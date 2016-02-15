@@ -1,13 +1,30 @@
 'use strict';
+
 const gulp = require('gulp');
 const webpack = require('webpack-stream');
 const gulpLoadPlugins = require('gulp-load-plugins');
 const plugins = gulpLoadPlugins();
+
 gulp.task('webpack:dev', () => {
   return gulp.src(__dirname + '/app/js/client.js', { read: true })
     .pipe(webpack({
+      context: __dirname + "/app",
+      entry: "./js/client.js",
       output: {
-        filename: 'bundle.min.js'
+        filename: "bundle.min.js",
+        path: __dirname + "/build/js",
+      },
+      module: {
+        loaders: [
+          {
+            test: /\.js$/,
+            exclude: /node_modules/,
+            loader: "babel",
+            query: {
+              presets: ['react']
+            }
+          }
+        ]
       }
     }))
     .pipe(plugins.concat('bundle.min.js'))
