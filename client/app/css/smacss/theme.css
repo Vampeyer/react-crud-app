@@ -1,0 +1,24 @@
+html {
+  font-family: 'Times New Roman', serif;
+}
+input {
+  border-radius: 5px;
+  border: solid 1px grey;
+}
+input[type="submit"] {
+  border: solid 1px black;
+  background-color: #333;
+  color: white;
+}
+input:hover {
+  border-color: black;
+}
+input[type="submit"]:hover {
+  background-color: #777;
+}
+input:active {
+  border-color: black;
+}
+input[type="submit"]:active {
+  background-color: #aaa;
+}
