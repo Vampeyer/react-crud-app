@@ -50,7 +50,7 @@ var BearDisplay = React.createClass({
     e.preventDefault();
     var bearName = this.state.bearName.trim(), bearFlavor = this.state.bearFlavor.trim();
     if (!bearName || !bearFlavor) return;
-    this.onUpdateClick({name: bearName, flavor: bearFlavor});
+    this.onUpdateClick(e, {name: bearName, flavor: bearFlavor});
   },
   onUpdateClick: function(e, newBear) {
     e.preventDefault();
