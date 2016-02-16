@@ -10,13 +10,13 @@ Angular utilizes controllers and data is bound to the scope of a given controlle
 Although we have yet to see this based upon our limited use of both React and Angular, React has been said to be more performance driven when compared to Angular.  In addition, some claim that debugging is harder in Angular than it is in React.
 
 ### Sources:
-https://www.codementor.io/reactjs/tutorial/react-vs-angularjs
-https://www.airpair.com/js/javascript-framework-comparison
+https://www.codementor.io/reactjs/tutorial/react-vs-angularjs<br/>
+https://www.airpair.com/js/javascript-framework-comparison<br/>
 http://stackoverflow.com/questions/27991366/what-is-the-difference-between-state-and-props-in-react
 
 ### Authors:
-Erika Hokanson (https://github.com/erikawho)
-James Mason (https://github.com/jhm90)
+Erika Hokanson (https://github.com/erikawho)<br/>
+James Mason (https://github.com/jhm90)<br/>
 Chris Lee (https://github.com/clee46)
 
 ## License
