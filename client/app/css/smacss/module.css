@@ -1,0 +1,9 @@
+#createBear, #bearDisplays, #bearApplication header {
+  margin: 20px;
+}
+#createBearHeader, #bearDisplaysHeader {
+  margin-bottom: 10px;
+}
+#bearDisplaysHeader {
+  display: none;
+}

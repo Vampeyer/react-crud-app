@@ -1,0 +1,18 @@
+html {
+  font-size: 0.75em;
+}
+h1 {
+  font-size: 3.157em;
+}
+h2 {
+  font-size: 2.369em;
+}
+input {
+  font-size: 1.414em;
+  padding: 2px;
+  margin: 5px;
+}
+input[type="submit"] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
