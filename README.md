@@ -15,6 +15,11 @@ https://www.airpair.com/js/javascript-framework-comparison<br/>
 http://stackoverflow.com/questions/27991366/what-is-the-difference-between-state-and-props-in-react
 
 ### Authors:
+
+Vampeyer , 
+
+### Contributors:
+
 Erika Hokanson (https://github.com/erikawho)<br/>
 James Mason (https://github.com/jhm90)<br/>
 Chris Lee (https://github.com/clee46)
